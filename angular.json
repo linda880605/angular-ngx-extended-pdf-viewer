@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "testPDF"
+    }
+  },
+  "defaultProject": "testPDF",
+  "cli": {
+    "analytics": false
+  }
 }

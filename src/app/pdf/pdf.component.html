@@ -1,0 +1,28 @@
+<p>測試測試</p>
+
+<div id="pdf">
+
+  <!-- <embed src="https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf#toolbar=0" width="100%" height="600px" /> -->
+
+  <!-- <pdf-viewer [original-size]="false" [src]="https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf" [show-all]="true" [autoresize]="true"[original-size]="true"></pdf-viewer> -->
+  <!-- <ng2-pdfjs-viewer [pdfSrc]="https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf"></ng2-pdfjs-viewer> -->
+
+  <!-- <iframe src="https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf" width="100%" height="600px"></iframe> -->
+
+<ngx-extended-pdf-viewer [src]="'https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf'"
+                         height="600px"
+                         [useBrowserLocale]="true"
+                         [delayFirstView]="1000"
+                         [showSidebarButton]="false"
+                         [showFindButton]="false"
+                         [showOpenFileButton]="false"
+                         [showBookmarkButton]="false"
+                         [showSecondaryToolbarButton]="false"
+                         [showRotateButton]="false"
+                         [showScrollingButton]="false"
+                         [showSpreadButton]="false"
+                         [showPropertiesButton]="false">
+</ngx-extended-pdf-viewer>
+
+
+</div>
